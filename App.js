@@ -1,5 +1,6 @@
 'use strict'; // enables Strict Mode, which makes JS better
 import React, { Component } from 'react';
+import SearchPage from './SearchPage';
 import {
   Platform,
   StyleSheet,
@@ -7,12 +8,6 @@ import {
   View,
   NavigatorIOS,
 } from 'react-native';
-
-class SearchPage extends Component<{}> {
-  render() {
-    return <Text style={styles.description}>Search for houses to buy! (Again)</Text>;
-  }
-}
 
 type Props = {};
 export default class App extends Component<{}> {
