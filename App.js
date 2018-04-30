@@ -1,4 +1,5 @@
 'use strict'; // enables Strict Mode, which makes JS better
+
 import React, { Component } from 'react';
 import SearchPage from './SearchPage';
 import {
